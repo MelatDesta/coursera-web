@@ -2,15 +2,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family:cursive;
+  font-weight: bold;
 }
 div {
-  /*background-color: #00FFFF;*/
+  position: relative;
+  left: 30px;
+  right: 35px;
   background-color: darkgray;
-  border: 3px solid black;
-  width: 300px;
+  border:3px solid black;
+  width: 400px;
   height:150px;
 margin-bottom: 10px;
-margin-left: 20px;
+margin-left: 10px;
 margin-right: 10px;
 float: left;
 }
@@ -18,16 +22,18 @@ h1{
   text-align: center;
   bottom: 30px;
   top: 30px;
-  margin-bottom: 20px;
+  margin-bottom:50px;
   margin-top: 50px;
+  right: 10px;
+  left: 10px;
 }
 p {
-  width:300px;
-  height:200px;
+  width:106.25px;
+  height:25px;
   border: 2px solid black;
-  float:left;
-  margin-top: 0px;
-  margin-right: 0px;
+  float:right;
+  margin-top:-1px;
+  margin-right:-1px;
   text-align: center;
 }
   @media (min-width:992px) {
@@ -49,38 +55,32 @@ width:30%;
     width:45%;
   }
   #container3{
-    width:95%;
+    width:92.8%;
   }
 }
 @media (max-width:767px) {
   #container{
-  width:80%;
+  width:90%;
 }
   #container2{
-  width:80%;
+  width:90%;
   }
   #container3{
-  width:80%;
+  width:90%;
   }
 }
 #p1 {
 background-color:lightpink;
 position:relative;
-width:75px;
-height:25px;
-float:right;
+
   }
 #p2{
 background-color:firebrick;
-width:75px;
-height:25px;
-float: right;
+position: relative;
 }
 #p3{
 background-color:wheat;
-width:75px;
-height:25px;
-float: right;
+position: relative;
 }
 section {
   clear: right;
