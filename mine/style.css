@@ -4,6 +4,7 @@
   padding: 0;
 }
 div {
+  /*background-color: #00FFFF;*/
   background-color: darkgray;
   border: 3px solid black;
   width: 300px;
@@ -48,35 +49,35 @@ width:30%;
     width:45%;
   }
   #container3{
-    width:80%;
+    width:95%;
   }
 }
 @media (max-width:767px) {
   #container{
-  width:60%;
+  width:80%;
 }
   #container2{
-  width:60%;
+  width:80%;
   }
   #container3{
-  width:60%;
+  width:80%;
   }
 }
 #p1 {
-background-color: pink;
+background-color:lightpink;
 position:relative;
 width:75px;
 height:25px;
 float:right;
   }
 #p2{
-background-color:maroon;
+background-color:firebrick;
 width:75px;
 height:25px;
 float: right;
 }
 #p3{
-background-color:yellow;
+background-color:wheat;
 width:75px;
 height:25px;
 float: right;
