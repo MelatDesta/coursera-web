@@ -16,10 +16,9 @@ h1{
   margin-top: 50px;
 }
 p {
-  width:300px;
-  height:200px;
   border: 2x solid black;
   float:left;
+  text align :center;
 }
   @media (min-width:992px) {
   #container{
@@ -57,22 +56,22 @@ width:30%;
 #p1 {
 background-color: pink;
 position: relative;
-width: 80px;
-height: 20px;
+width: 75px;
+height: 25px;
 top: 0px;
 float:right;
   }
 #p2{
 background-color:maroon;
-width: 80px;
-height: 20px;
+width: 75px;
+height: 25px;
 top: 0px;
 float: right;
 }
 #p3{
 background-color:yellow;
-width: 80px;
-height: 20px;
+width: 75px;
+height: 25px;
 top: 0px;
 float: right;
 }
